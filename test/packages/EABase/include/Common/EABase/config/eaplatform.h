@@ -72,7 +72,13 @@
 #ifndef INCLUDED_eaplatform_H
 #define INCLUDED_eaplatform_H
 
+#ifndef EA_PLATFORM_WIN64
+#define EA_PLATFORM_WIN64 
+
+#ifndef EA_PLATFORM_WINDOWS
 #define EA_PLATFORM_WINDOWS
+
+#ifndef _WIN64
 #define _WIN64
 // Cygwin
 // This is a pseudo-platform which will be defined along with EA_PLATFORM_LINUX when
