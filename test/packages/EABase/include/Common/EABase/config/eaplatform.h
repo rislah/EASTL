@@ -80,10 +80,6 @@
 	#define _WIN64
 #endif
 
-#ifndef (__x86_64__)
-	#define __x86_64__
-#endif
-
 #define _WIN64
 // Cygwin
 // This is a pseudo-platform which will be defined along with EA_PLATFORM_LINUX when
