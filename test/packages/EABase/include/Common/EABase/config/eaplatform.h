@@ -74,12 +74,15 @@
 
 #ifndef EA_PLATFORM_WIN64
 #define EA_PLATFORM_WIN64 
+#endif
 
 #ifndef EA_PLATFORM_WINDOWS
 #define EA_PLATFORM_WINDOWS
+#endif
 
 #ifndef _WIN64
 #define _WIN64
+#endif
 // Cygwin
 // This is a pseudo-platform which will be defined along with EA_PLATFORM_LINUX when
 // using the Cygwin build environment.
