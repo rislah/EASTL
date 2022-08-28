@@ -73,7 +73,7 @@
 #define INCLUDED_eaplatform_H
 
 #define EA_PLATFORM_WINDOWS
-#define EA_PLATFORM_WIN64
+#define _WIN64
 // Cygwin
 // This is a pseudo-platform which will be defined along with EA_PLATFORM_LINUX when
 // using the Cygwin build environment.
